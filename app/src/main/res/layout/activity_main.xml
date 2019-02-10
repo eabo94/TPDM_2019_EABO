@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#FFF400"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Practica1"
+        android:layout_marginHorizontal="70dp"
+        android:textColor="#176319"
+        android:layout_marginTop="30dp"
+        android:textSize="50dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Primer numero entero."
+        android:layout_marginTop="70dp"
+        android:inputType="number"
+        android:id="@+id/numero1"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Segundo numero entero"
+        android:layout_marginTop="30dp"
+        android:inputType="number"
+        android:id="@+id/numero2"
+        />
+
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:text="Calcular" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Resultado"
+        android:textSize="20dp"
+        android:id="@+id/resultado"
+        />
+
+
+</LinearLayout>
